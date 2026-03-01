@@ -10,9 +10,20 @@ html, body {
   height: 100%;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* TODO: Make the page layout fill the screen and place navbar on top */
 body {
   /* hint: flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  background-color: wheat;
+  font-family: 'Source Code Pro', monospace;
+
 }
 
 /* ===========================
@@ -21,15 +32,30 @@ body {
 
 .navbar {
   /* TODO: Style the navbar (height, spacing, alignment, background color, etc.) */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: saddlebrown;
+  height: 16px;
+
+
+  
+  
+
 }
 
 .nav-link {
   /* TODO: Optional - remove underline / adjust spacing */
+  text-decoration: none;
+
 }
 
 .nav-logo {
   /* TODO: Resize the logos so they fit nicely in the navbar */
   /* hint: height: 40px; width: auto; */
+  height: 40px;
+  width: auto;
 }
 
 /* ===========================
@@ -39,10 +65,17 @@ body {
 .content {
   /* TODO: Make main content take up remaining space and center it */
   /* hint: flex: 1; display: flex; flex-direction: column; justify-content: center; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .name-header {
   /* TODO: Center the header text and increase font size */
+  text-align: center;
+  font-size: 2.5em;
 }
 
 /* ===========================
@@ -52,14 +85,23 @@ body {
 .info-section {
   /* TODO: Use Flexbox to put the two boxes side-by-side and center them */
   /* hint: display: flex; justify-content: center; align-items: center; gap: ...; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .facts-box {
   /* TODO: Style the facts section (font size, width, colors, etc.) */
+  font-size: 1.5em;
+  width: 500px;
+  
 }
 
 .facts-title {
   /* TODO: Style the facts title */
+  color: brown;
+  font-weight: bold;
 }
 
 .facts-list {
@@ -68,13 +110,22 @@ body {
 
 .fact-item {
   /* TODO: Style list items (color, spacing, etc.) */
+  color: brown;
+  margin-bottom: 10px;
+
 }
 
 .image-box {
   /* TODO: Style the image container (size, centering, etc.) */
+  width: 300px;
+  height: 300px;
 }
 
 .profile-image {
   /* TODO: Make the image fit inside the box nicely */
   /* hint: width: 100%; height: 100%; object-fit: cover; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
 }
