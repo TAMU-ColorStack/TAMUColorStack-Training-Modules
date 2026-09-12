@@ -100,4 +100,4 @@ You **must submit your work using a new branch**.
      git push origin your-name
 
 ## Useful Links:
-- Resource document: https://docs.google.com/document/d/1_IeR5tAZiZhgv5x9rdyFsxdfT0i3ldBCzS3I61mpWz8/edit?usp=sharing
+- Resource document: https://docs.google.com/document/d/1_3BtrQ6t5iN5xOubV8OFnak6MhomH1_ndckpCsLBi8k/edit?usp=sharing
