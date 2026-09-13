@@ -101,3 +101,6 @@ You **must submit your work using a new branch**.
 
 ## Useful Links:
 - Resource document: https://docs.google.com/document/d/1_3BtrQ6t5iN5xOubV8OFnak6MhomH1_ndckpCsLBi8k/edit?usp=sharing
+
+## Final Product:
+![Adams final product](code/public/Adam.png)
